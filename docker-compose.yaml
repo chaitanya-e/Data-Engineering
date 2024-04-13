@@ -55,7 +55,7 @@ services:
       elt_script:
         condition: service_completed_successfully
     environment:
-      DBT_PROFILE: default
+      DBT_PROFILE: custom_postgres
       DBT_TARGET: dev
 
 networks:

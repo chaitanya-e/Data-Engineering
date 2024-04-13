@@ -1,4 +1,4 @@
-postgres_transformations:
+default:
   outputs:
     dev:
       dbname: destination_db
@@ -24,7 +24,6 @@ postgres_transformations:
 
 custom_postgres:
   outputs:
-
     dev:
       type: postgres
       threads: 1
